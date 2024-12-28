@@ -2,7 +2,7 @@
 date: 2024-03-15
 tags: 旅行,日本,京都
 summary: 记录了在京都的樱花季旅行见闻
-coverImage: /images/title.png
+coverImage: https://github.com/lucasluya0/jsongo_blog/blob/main/images/title.png
 author: xu
 ---
 
