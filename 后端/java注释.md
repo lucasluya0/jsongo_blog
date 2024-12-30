@@ -1,9 +1,9 @@
 ---
 date: 2024-03-15
-tags: 旅行,日本,京都
-summary: 记录了在京都的樱花季旅行见闻
-coverImage: images/title.png
-author: xu
+tags: 
+summary: 详细介绍了Java中三种注释类型(单行注释、多行注释和Javadoc注释)的使用方法和最佳实践，包含了Javadoc注释中常用的HTML标签和文档标签的详细说明与示例代码。
+coverImage: https://mmbiz.qpic.cn/sz_mmbiz_png/aAia1M9Vb9bicypPFaFMqhicicUAtWvRw62nKcgRjgQGicibK3Cq7cnTsqNdFvWDFm0YrdAjbS4O0Gibr0ILPFtzf6ssQ/640?wx_fmt=png&amp;from=appmsg
+author: 柳树下的程序员
 ---
 
 推荐:编写 JavaDoc 注释时，可以使用多种 HTML 标签来增强注释的格式和可读性。以下是一些常用的 HTML 标签及其用途：
@@ -20,7 +20,7 @@ author: xu
 - Javadoc 注释
 
 **单行注释**
-![title.png](images/title.png)
+![title.png](https://mmbiz.qpic.cn/sz_mmbiz_png/aAia1M9Vb9bicypPFaFMqhicicUAtWvRw62nKcgRjgQGicibK3Cq7cnTsqNdFvWDFm0YrdAjbS4O0Gibr0ILPFtzf6ssQ/640?wx_fmt=png&amp;from=appmsg)
 单行注释使用 // 开头，通常用于注释一行代码或说明某个代码块的功能。
 
 ~~~java
