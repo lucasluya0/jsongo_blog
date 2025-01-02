@@ -123,5 +123,254 @@ public class DocThree {
 
 
 
+企业开发中，针对类、接口、方法编写需要增加必要的注释，
+
+- 当代码出现 bug 时，同事可以通过注释迅速定位问题的所在，节省了大量时间，提高了工作效率。
+- 代码经过一段时间后，开发者自己可能也会忘记当初的实现细节。通过详细的注释，可以快速理解自己曾经的逻辑，减少重新熟悉代码的时间。
+- 提升代码可读性：注释可以解释复杂的逻辑和算法，使得代码更易于理解，尤其对于新加入的团队成员来说尤为重要。
+
+
+
+**1. 单行注释不要写在代码的尾部**
+```java
+// 打印结果
+System.out.println(result);
+```
+
+**2. 在写Map 结构注释时：可以这样进行**
+```java
+//key->用户对象的id，value->用户对象拥有的金额
+Map<String, BigDecimal> testMap=new HashMap<>();
+```
+
+**3. 在写if...else...注释时，建议写上代码块注释**
+
+```java
+
+if (number > 0) {
+
+    //region 该数字是正数
+
+    return "该数字是正数。";
+
+    //endregion
+
+} else if (number < 0) {
+
+    //该数字是负数。
+
+    return "该数字是负数。";
+
+} else {
+
+    //该数字是零。
+
+    return "该数字是零。";
+
+}
+
+```
+
+> **代码示例:**
+
+**entity**
+
+```java
+
+@Data
+
+public class LoginVo {
+    /**
+
+     * 用户名
+
+     * @see User#getUsername()
+
+     */
+
+    private String username;
+    
+    /**
+
+     * 密码
+
+     * @see User#getPassword()
+
+     */
+
+    private String password;
+
+}
+
+
+
+```
+
+**Controller**
+
+```java
+
+/**
+
+ * 处理用户登录请求。
+
+ *
+
+ * <p>示例：
+
+ * <pre>{@code
+
+ * POST请求：/user/login
+
+ * 请求体：
+
+ * {
+
+ *   "username": "john_doe",
+
+ *   "password": "password123"
+
+ * }
+
+ * }
+
+ * </pre>
+
+ *
+
+ * @param loginVo 包含用户登录名和密码的 {@link LoginVo} 对象。
+
+ * @return 如果用户认证成功返回true，否则返回false。
+
+ */
+
+@PostMapping("/login")
+
+public boolean login(@RequestBody LoginVo loginVo) {
+
+    return userService.authenticate(loginVo);
+
+}
+
+```
+
+**Service**
+
+```java
+
+/**
+
+ * 根据提供的登录信息进行用户认证。
+
+ * @param loginVo 包含用户凭据的 {@link LoginVo} 对象。
+
+ * @return 如果认证成功返回true，否则返回false。
+
+ *
+
+ */
+
+boolean authenticate(LoginVo loginVo);
+
+```
+
+
+
+**ServiceImpl**
+
+```java
+
+/**
+
+ * <pre>
+
+ * 根据提供的登录信息进行用户认证。
+
+ *     第一步：
+
+ *     第二步：
+
+ * </pre>
+
+ * @param loginVo 包含用户凭据的 {@link LoginVo} 对象。
+
+ * @return 如果用户凭据正确，则返回true，否则返回false。
+
+ */
+
+@Override
+
+public boolean authenticate(LoginVo loginVo) {
+
+    return false;
+
+}
+
+
+
+/**
+
+ * 根据提供的登录信息进行用户认证。
+
+ *     <li>第一步：</li>
+
+ *     <li>第二步：</li>
+
+ * @param loginVo 包含用户凭据的 {@link LoginVo} 对象。
+
+ * @return 如果用户凭据正确，则返回true，否则返回false。
+
+ */
+
+@Override
+
+public boolean authenticate(LoginVo loginVo) {
+
+    // 根据用户名获取用户对象
+
+    User user = getUserByUsername(loginVo.getUsername());
+
+    if (user == null) {
+
+        //说明用户名不存在，认证失败
+
+        return false;
+
+    }
+
+    // 比较用户对象的密码与输入的密码是否相同，进行认证
+
+    return user.getPassword().equals(loginVo.getPassword());
+
+}
+
+
+
+/**
+
+ * 根据用户名获取用户对象。
+
+ *
+
+ * @param username 要查找的用户的用户名
+
+ * @return 返回对应用户名的用户对象 {@link User} ，如果找不到则返回null。
+
+ */
+
+private User getUserByUsername(String username) {
+
+    //模拟一个存在的用户
+
+    return new User();
+
+}
+
+```
+
+
+
+
+
 
 
