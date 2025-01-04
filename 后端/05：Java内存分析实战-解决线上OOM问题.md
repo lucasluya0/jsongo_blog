@@ -1,8 +1,9 @@
 ---
-date: 2024-12-30
-tags: 
-summary: 本文详细介绍了如何使用Eclipse Memory Analyzer(MAT)工具来分析和解决Java应用中的OutOfMemoryError问题。文章涵盖了内存问题的症状识别、堆快照获取方法、MAT工具的使用技巧，以及通过分析Leak Suspects和Thread Overview来定位内存泄露的具体实践方案。
-coverImage: https://mmbiz.qpic.cn/sz_mmbiz_png/aAia1M9Vb9bicypPFaFMqhicicUAtWvRw62nKcgRjgQGicibK3Cq7cnTsqNdFvWDFm0YrdAjbS4O0Gibr0ILPFtzf6ssQ/640?wx_fmt=png&amp;from=appmsg
+date: 2024-03-15
+title: Java内存分析实战-解决线上OOM问题
+keywords: [Java内存分析, OOM问题分析, MAT工具使用, 堆内存分析, 内存泄漏排查, JVM调优, 性能优化]
+tags: [内存分析, OOM问题, MAT工具, 堆转储, JVM调优]
+summary: 详细介绍了如何使用Eclipse Memory Analyzer(MAT)工具来分析和解决Java应用中的OutOfMemoryError问题，包括内存问题的症状识别、堆快照获取和分析方法。
 author: 柳树下的程序员
 ---
 >在企业级Java应用中,内存问题是我们经常遇到的挑战之一。本文将介绍如何使用MemoryAnalyzer工具来分析和解决线上出现的`OutOfMemoryError(OOM)`问题。

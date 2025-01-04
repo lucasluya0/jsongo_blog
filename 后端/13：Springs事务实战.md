@@ -1,3 +1,11 @@
+---
+date: 2024-03-15
+title: Spring事务管理实战：编程式与声明式事务详解
+keywords: [Spring事务, 事务管理, TransactionTemplate, PlatformTransactionManager, 编程式事务, 声明式事务, 事务回滚, 异常处理]
+tags: [Spring事务, 编程式事务, 声明式事务, 事务管理, 异常处理]
+summary: 详细介绍了Spring事务的实战应用，包括编程式事务和声明式事务的具体实现，以及事务回滚规则、异常处理等关键内容。
+author: 柳树下的程序员
+---
 Spring下的事务管理实战
 
 `推荐做法：`在企业中尽可能使用编程式事务写法，应避免使用注解式写法@Transactional。

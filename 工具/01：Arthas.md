@@ -1,8 +1,9 @@
 ---
-date: 2024-12-30
-tags: 
+date: 2024-03-15
+title: Arthas - Java应用诊断利器
+keywords: [Arthas, Java诊断工具, 热部署, 线程分析, 性能监控, 线上问题排查, 阿里巴巴开源, JVM工具]
+tags: [Arthas, Java诊断, 性能监控, 热部署, 线上排查]
 summary: 介绍阿里巴巴开源的Java诊断工具Arthas的核心功能，包括热部署、线程分析、性能监控等12个常用命令的详细使用方法，帮助开发者高效排查线上问题。
-coverImage: https://mmbiz.qpic.cn/sz_mmbiz_png/aAia1M9Vb9bicypPFaFMqhicicUAtWvRw62nKcgRjgQGicibK3Cq7cnTsqNdFvWDFm0YrdAjbS4O0Gibr0ILPFtzf6ssQ/640?wx_fmt=png&amp;from=appmsg
 author: 柳树下的程序员
 ---
 项目应急箱-Arthas

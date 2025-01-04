@@ -1,8 +1,9 @@
 ---
-date: 2024-12-30
-tags: 
-summary: 详细介绍了MySQL死锁(DeadlockLoserDataAccessException)的排查和解决方案。包括获取死锁日志、分析事务信息、还原死锁场景等步骤，并提供了常见原因分析和解决方案，如减小事务范围、使用连续性主键ID等。
-coverImage: https://mmbiz.qpic.cn/sz_mmbiz_png/aAia1M9Vb9bicypPFaFMqhicicUAtWvRw62nKcgRjgQGicibK3Cq7cnTsqNdFvWDFm0YrdAjbS4O0Gibr0ILPFtzf6ssQ/640?wx_fmt=png&amp;from=appmsg
+date: 2024-03-15
+title: 死锁 DeadlockLoserDataAccessException 解决方案
+keywords: [死锁, DeadlockLoserDataAccessException, MySQL, 事务管理, 数据库优化, 性能调优, 死锁日志, 事务分析]
+tags: [死锁问题, MySQL, 事务管理, 数据库优化, 性能调优]
+summary: 详细介绍了MySQL死锁(DeadlockLoserDataAccessException)的排查和解决方案，包括获取死锁日志、分析事务信息、还原死锁场景等步骤。
 author: 柳树下的程序员
 ---
 死锁 DeadlockLoserDataAccessException 解决方案

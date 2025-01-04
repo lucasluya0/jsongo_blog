@@ -1,8 +1,9 @@
 ---
-date: 2024-12-30
-tags: 
-summary: 本文介绍了Java项目出现卡顿时的排查方法，主要从系统负载、数据库执行和代码执行三个维度进行分析。详细讲解了如何使用top命令监控系统资源，以及针对MySQL和Java进程CPU占用高的排查步骤，包括慢SQL分析和线程堆栈信息查看等实用技巧。
-coverImage: https://mmbiz.qpic.cn/sz_mmbiz_png/aAia1M9Vb9bicypPFaFMqhicicUAtWvRw62nKcgRjgQGicibK3Cq7cnTsqNdFvWDFm0YrdAjbS4O0Gibr0ILPFtzf6ssQ/640?wx_fmt=png&amp;from=appmsg
+title: Java项目卡顿问题排查与解决方案
+keywords: [Java性能优化, 系统监控, CPU分析, 线程堆栈, 问题排查, top命令, jstack]
+date: 2024-03-15
+tags: [性能优化, 系统监控, CPU分析, 线程堆栈, 问题排查]
+summary: 介绍了Java项目出现卡顿时的排查方法，主要从系统负载、数据库执行和代码执行三个维度进行分析，包括使用top命令监控系统资源和线程堆栈信息查看等实用技巧。
 author: 柳树下的程序员
 ---
 

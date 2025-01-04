@@ -1,3 +1,11 @@
+---
+date: 2024-03-15
+title: Java Optional最佳实践：优雅处理空指针的完美方案
+keywords: [Java Optional, 空指针处理, NPE, 函数式编程, 代码优化, Optional最佳实践, Java 8, 链式调用, 空值处理]
+tags: [Java Optional, 空指针处理, 函数式编程, 代码优化, 最佳实践]
+summary: 深入讲解了Java Optional的使用技巧和最佳实践，包括如何优雅处理空值、链式调用、实际应用场景等内容，帮助开发者写出更健壮的代码。
+author: 柳树下的程序员
+---
 别再写 null 判断了！Java Optional 才是解决空指针的最佳实践
 > 你还在写一堆 if(xxx != null) 吗？来看看如何用 Optional 优雅地解决空指针问题！
 1. 从一个真实场景说起

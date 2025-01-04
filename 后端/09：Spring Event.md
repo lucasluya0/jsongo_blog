@@ -1,3 +1,11 @@
+---
+date: 2024-03-15
+title: Spring Event驱动-优雅代码的助推器
+keywords: Spring Event, 事件驱动, 观察者模式, 事件发布, 事件监听, 系统解耦, ApplicationEvent
+tags: [Spring事件, 事件驱动, 观察者模式, Spring框架, 系统解耦]
+summary: 详细介绍了Spring事件发布机制的实现和应用，包括事件定义、发布和监听的完整流程，以及在实际项目中的最佳实践。
+author: 柳树下的程序员
+---
 SpringEvent驱动-优雅代码的助推器
 
 事件发布机制是一种基于观察者模式的设计方案。在这种模式中，事件源（Event Source）会生成事件，而事件监听器（Event Listener）则对这些事件进行处理。通过这种方式，我们可以在不同的组件之间实现松耦合的通信。

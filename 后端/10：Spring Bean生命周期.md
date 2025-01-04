@@ -1,3 +1,11 @@
+---
+date: 2024-03-15
+title: Spring Bean生命周期详解：从创建到销毁的完整过程
+keywords: [Spring Bean, Bean生命周期, 依赖注入, 初始化方法, Bean实例化, ApplicationContextAware, BeanPostProcessor, PostConstruct, InitializingBean, DisposableBean]
+tags: [Spring Bean, 生命周期, 依赖注入, Bean初始化, Spring框架]
+summary: 深入探讨了Spring Bean的完整生命周期，包括实例化、依赖注入、初始化等各个阶段，并结合实际应用场景说明了各个生命周期阶段的作用。
+author: 柳树下的程序员
+---
 探索 Spring Bean 生命周期及其在企业开发中的应用
 
 `推荐理由：`在`Spring`项目中，`sao`操作能用到

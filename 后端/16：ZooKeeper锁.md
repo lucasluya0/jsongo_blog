@@ -1,3 +1,11 @@
+---
+date: 2024-03-15
+title: ZooKeeper分布式锁实现详解：从原理到实战
+keywords: [ZooKeeper, 分布式锁, 分布式系统, 并发控制, Java, Curator, 分布式协调, InterProcessMutex, 实战教程]
+tags: [ZooKeeper, 分布式锁, 分布式协调, 并发控制, 分布式系统]
+summary: 详细介绍了基于ZooKeeper实现分布式锁的方案，包括ZooKeeper的配置、锁的实现机制、实际应用场景等内容，并提供了完整的代码实现。
+author: 柳树下的程序员
+---
 实战基础-分布式锁 ZooKeeper
 
 >`Zookeeper` 是一种实现了 `CP（Consistency and Partition tolerance）` 模型的分布式协调服务。这意味着 `Zookeeper` 在分布式系统中重点关注一致性和分区容忍性，牺牲了一部分可用性以保证数据的一致性。

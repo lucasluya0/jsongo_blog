@@ -1,3 +1,11 @@
+---
+date: 2024-03-15
+title: 1Panel实战：从零开始的服务器环境搭建指南
+keywords: [1Panel, Docker, 云主机, 环境搭建, Linux配置, 服务器管理, DevOps]
+tags: [1Panel实战, Docker安装, 服务器配置, 环境搭建, Linux系统]
+summary: 详细介绍了从购买云主机开始的环境搭建过程，包括Docker的安装配置、1Panel的部署步骤，以及常见问题的解决方案。
+author: 柳树下的程序员
+---
 个人开发者从购入一台云主机开始
 
 ![img_3.png](img_3.png)

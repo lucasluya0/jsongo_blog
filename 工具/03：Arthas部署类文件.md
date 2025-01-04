@@ -1,8 +1,9 @@
 ---
-date: 2024-12-30
-tags: 
-summary: 介绍如何使用Arthas工具进行Java类文件的热部署，包括将arthas-boot.jar部署到服务器、上传修改后的class文件、启动Arthas并执行retransform命令等完整操作步骤
-coverImage: https://mmbiz.qpic.cn/sz_mmbiz_png/aAia1M9Vb9bicypPFaFMqhicicUAtWvRw62nKcgRjgQGicibK3Cq7cnTsqNdFvWDFm0YrdAjbS4O0Gibr0ILPFtzf6ssQ/640?wx_fmt=png&amp;from=appmsg
+date: 2024-03-15
+title: Arthas热部署实战：Java类文件动态替换完整指南
+keywords: [Arthas热部署, Java类文件替换, Docker环境部署, Java线上调试, 动态类加载, retransform命令]
+tags: [Arthas, 热部署, Java调试, 类文件替换, Docker部署]
+summary: 介绍如何使用Arthas工具进行Java类文件的热部署，包括将arthas-boot.jar部署到服务器、上传修改后的class文件、启动Arthas并执行retransform命令等完整操作步骤。
 author: 柳树下的程序员
 ---
 项目应急箱-Arthas部署类文件

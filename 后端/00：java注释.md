@@ -1,8 +1,9 @@
 ---
 date: 2024-03-15
-tags: 
+title: Java注释详解：单行注释、多行注释与Javadoc的最佳实践
+keywords: [Java注释, Javadoc, 代码注释, 文档注释, 编程规范, 代码可读性, HTML标签, 注释最佳实践]
+tags: [Java基础, 代码规范, 文档注释, Javadoc, 编程最佳实践]
 summary: 详细介绍了Java中三种注释类型(单行注释、多行注释和Javadoc注释)的使用方法和最佳实践，包含了Javadoc注释中常用的HTML标签和文档标签的详细说明与示例代码。
-coverImage: https://mmbiz.qpic.cn/sz_mmbiz_png/aAia1M9Vb9bicypPFaFMqhicicUAtWvRw62nKcgRjgQGicibK3Cq7cnTsqNdFvWDFm0YrdAjbS4O0Gibr0ILPFtzf6ssQ/640?wx_fmt=png&amp;from=appmsg
 author: 柳树下的程序员
 ---
 

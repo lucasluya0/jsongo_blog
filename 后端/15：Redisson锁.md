@@ -1,3 +1,11 @@
+---
+date: 2024-03-15
+title: Redisson分布式锁：高性能分布式锁解决方案
+keywords: [Redisson, Redis, 分布式锁, 并发控制, 分布式系统, Java, Spring Boot, 锁实现, 高并发]
+tags: [Redisson, 分布式锁, Redis, 并发控制, 分布式系统]
+summary: 深入介绍了使用Redisson实现分布式锁的方案，包括Redisson的配置、锁的实现、工具类开发等内容，并提供了完整的代码示例和最佳实践。
+author: 柳树下的程序员
+---
 Redisson 分布式锁
 
 >`Redisson` 是基于redis【AP（可用性和分区容忍性）】的一套工具库，适用于对性能要求高、场景简单且无需强一致性的场景，例如高并发控制和缓存一致性

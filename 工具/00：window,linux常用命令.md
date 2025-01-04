@@ -1,8 +1,9 @@
 ---
-date: 2024-12-30
-tags: windows,linux
+date: 2024-03-15
+title: Windows和Linux系统常用命令指南
+keywords: [命令行工具, Linux命令, Windows命令, 端口管理, 文件处理, 日志分析, less命令, 系统管理]
+tags: [命令行工具, Linux命令, Windows命令, 系统管理, 日志分析]
 summary: 整理了Windows和Linux系统下的常用命令，包括Windows下的端口占用排查、大文件分割处理，以及Linux下的文件压缩、日志查找分析等实用操作。特别介绍了less命令的常用操作技巧。
-coverImage: https://mmbiz.qpic.cn/sz_mmbiz_png/aAia1M9Vb9bicypPFaFMqhicicUAtWvRw62nKcgRjgQGicibK3Cq7cnTsqNdFvWDFm0YrdAjbS4O0Gibr0ILPFtzf6ssQ/640?wx_fmt=png&amp;from=appmsg
 author: 柳树下的程序员
 ---
 
