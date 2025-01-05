@@ -21,7 +21,6 @@ author: 柳树下的程序员
 - Bean 销毁
 
 
-dsf
 
 >1、Bean 实例化：在 Spring 容器启动时，会根据配置的 Bean 定义创建 Bean 实例。
 
